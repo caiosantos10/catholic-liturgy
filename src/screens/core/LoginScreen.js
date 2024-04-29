@@ -8,7 +8,7 @@ export default function LoginScreen() {
     return (
         <View>
             <Text style={styles.title}>Login</Text>
-            <TextInput style={styles.input} placeholder={userNamePlaceHolder} keyboardType="text" />
+            <TextInput style={styles.input} placeholder={userNamePlaceHolder} />
             <TextInput style={styles.input} placeholder={passwordPlaceHolder} secureTextEntry={true} />
             <Button title={buttonTitle} onPress={() => navigation.navigate('Main')} />
         </View>
