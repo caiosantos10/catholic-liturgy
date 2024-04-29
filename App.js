@@ -1,7 +1,7 @@
 import { NavigationContainer } from '@react-navigation/native';
-import HomeScreen from './src/screens/HomeScreen';
-import ExploreScreen from './src/screens/ExploreScreen';
-import ProfileScreen from './src/screens/ProfileScreen';
+import HomeScreen from './src/screens/tabs/HomeScreen';
+import ExploreScreen from './src/screens/tabs/ExploreScreen';
+import ProfileScreen from './src/screens/tabs/ProfileScreen';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
 const Tab = createBottomTabNavigator();
