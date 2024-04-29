@@ -1,11 +1,11 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
-import CarouselComponent from '../../components/carousel-component';
+import CarouselComponent from '../../components/CarouselComponent';
 
 export default function ExploreScreen() {
  return (
     <View style={styles.container}>
-      <Text style={styles.title}>Bem-vindo ao ExploreScreen!</Text>
+      {/* <Text style={styles.title}>Bem-vindo ao ExploreScreen!</Text> */}
       <CarouselComponent></CarouselComponent>
     </View>
  );
