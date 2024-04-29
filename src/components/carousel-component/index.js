@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import Swiper from 'react-native-swiper';
 
-const CarouselComponent = () => {
+export default CarouselComponent = () => {
  return (
     <Swiper showsButtons={true} loop={true}>
       <View style={styles.slide1}>
@@ -43,5 +43,3 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
  },
 });
-
-export default CarouselComponent;
