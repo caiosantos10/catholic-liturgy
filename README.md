@@ -31,7 +31,7 @@ git clone https://github.com/caiosantos10/catholic-liturgy.git
 2. Instale as dependências do projeto:
 
 ```
-cd aplicativo-hinos-catolicos
+cd catholic-liturgy
 npm install
 ```
 
