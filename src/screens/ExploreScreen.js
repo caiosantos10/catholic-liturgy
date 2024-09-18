@@ -1,6 +1,5 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
-import CarouselComponent from '../../components/CarouselComponent';
 
 export default function ExploreScreen() {
  return (
